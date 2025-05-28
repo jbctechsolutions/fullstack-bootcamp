@@ -4,7 +4,7 @@ Thank you for your interest in contributing to the Full Stack Dev Bootcamp! This
 
 ## Contributor License Agreement (CLA)
 
-Before contributing to this project, you must sign our [Contributor License Agreement](CLA.md). This agreement ensures that your contributions can be used by Times Square Church for ministry purposes while protecting your rights as a contributor.
+Before contributing to this project, you must sign our [Contributor License Agreement](CLA.md). This agreement ensures that your contributions can be used by CareQuant while protecting your rights as a contributor.
 
 ### Signing the CLA
 

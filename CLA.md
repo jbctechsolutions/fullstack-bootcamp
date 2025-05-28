@@ -1,56 +1,78 @@
 # Contributor License Agreement
 
-Thank you for your interest in contributing to an open source project maintained by **Times Square Church (TSC)**.
+Version 1.0 - Effective Date: [Current Date]
 
-This Contributor License Agreement ("Agreement") clarifies the rights granted by you, the Contributor, to TSC and helps ensure clarity and protection for both parties.
+Thank you for your interest in contributing to an open source project maintained by **CareQuant** ("we," "us," or "our").
+
+This Contributor License Agreement ("Agreement") is a legal document that clarifies the intellectual property rights granted by you, the Contributor, to CareQuant and helps ensure clarity and protection for both parties.
 
 ---
 
 ## 1. Definitions
 
-- **"Contribution"** refers to any original work you submit to a TSC open source project, including source code, documentation, designs, or other materials.
-- **"You"** means the individual making the Contribution.
+- **"Contribution"** means any original work of authorship, including any modifications or additions to an existing work, that is intentionally submitted by You to CareQuant for inclusion in, or documentation of, any of the products owned or managed by CareQuant (the "Work"). For the purposes of this definition, "submitted" means any form of electronic, verbal, or written communication sent to CareQuant or its representatives.
+- **"You"** (or "Your") means the copyright owner or legal entity authorized by the copyright owner that is making this Agreement with CareQuant.
+- **"Work"** means the work of authorship which is made available by CareQuant to third parties.
+- **"Project"** means any of the products owned or managed by CareQuant to which the Contribution was submitted.
 
 ---
 
-## 2. Copyright Ownership
+## 2. Copyright License
 
-You retain ownership of your Contribution. This agreement does not transfer copyright to TSC.
-
----
-
-## 3. License Grant
-
-You grant Times Square Church a perpetual, worldwide, royalty-free, non-exclusive license to use, reproduce, display, modify, distribute, and sublicense your Contribution:
-
-- As part of the applicable open source project, under the project's license (e.g., MIT or Apache 2.0)
-- For ministry-related purposes, including integration into internal or public-facing tools
+Subject to the terms and conditions of this Agreement, You hereby grant to CareQuant and to recipients of software distributed by CareQuant a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare derivative works of, publicly display, publicly perform, sublicense, and distribute Your Contributions and such derivative works.
 
 ---
 
-## 4. Your Representations
+## 3. Patent License
 
-By submitting a Contribution, you confirm that:
-
-- You are the original author, or you have the right to submit the Contribution.
-- Your Contribution does not violate any third-party rights or agreements.
-- You grant this license freely and voluntarily.
+Subject to the terms and conditions of this Agreement, You hereby grant to CareQuant and to recipients of software distributed by CareQuant a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by You that are necessarily infringed by Your Contribution(s) alone or by combination of Your Contribution(s) with the Work to which such Contribution(s) was submitted.
 
 ---
 
-## 5. No Warranty
+## 4. Your Representations and Warranties
 
-Your Contribution is provided "as-is." You make no warranties and are not liable for any damages related to its use.
+You represent and warrant that:
+
+1. You are legally entitled to grant the above licenses.
+2. Each of Your Contributions is Your original creation.
+3. To Your knowledge, Your Contributions do not violate any third party's copyrights, trademarks, patents, or other intellectual property rights.
+4. Your Contributions do not contain any third-party code or content that requires additional licenses or restrictions.
+5. You have not received any compensation for Your Contributions from any third party.
+6. You have not entered into any agreement that would conflict with the licenses granted herein.
 
 ---
 
-## 6. Code of Conduct
+## 5. Disclaimer of Warranty
 
-You agree to follow the TSC Open Source Code of Conduct and behave in a respectful, Christ-centered way.
+THE CONTRIBUTIONS ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.
 
 ---
 
-## 7. Signature
+## 6. Limitation of Liability
+
+IN NO EVENT SHALL YOU BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE CONTRIBUTIONS OR THE USE OR OTHER DEALINGS IN THE CONTRIBUTIONS.
+
+---
+
+## 7. Code of Conduct
+
+You agree to follow the CareQuant Open Source Code of Conduct and behave in a respectful and professional manner.
+
+---
+
+## 8. Termination
+
+This Agreement will terminate automatically if You fail to comply with any of its terms and conditions.
+
+---
+
+## 9. Governing Law
+
+This Agreement shall be governed by and construed in accordance with the laws of the State of New York, without regard to its conflict of law provisions.
+
+---
+
+## 10. Signature
 
 By submitting a pull request or similar contribution, you agree to the terms of this CLA.
 
@@ -61,3 +83,7 @@ If required, please sign below:
 **GitHub Username (if applicable):** ______________________________
 **Date:** ______________________________
 **Signature:** ______________________________ 
+
+---
+
+*This CLA is based on the Apache Software Foundation's Individual Contributor License Agreement, modified for CareQuant's specific needs.* 

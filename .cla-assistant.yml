@@ -225,13 +225,13 @@ autoMergeDisabledComment: |
 # CLA Assistant Configuration
 cla:
   # The URL to your CLA document
-  claUrl: https://github.com/tscnyc/fullstack-bootcamp/blob/main/CLA.md
+  claUrl: https://github.com/carequant/fullstack-bootcamp/blob/main/CLA.md
   # The URL to your Code of Conduct
-  cocUrl: https://github.com/tscnyc/fullstack-bootcamp/blob/main/CODE_OF_CONDUCT.md
+  cocUrl: https://github.com/carequant/fullstack-bootcamp/blob/main/CODE_OF_CONDUCT.md
   # The URL to your Contributing Guidelines
-  contributingUrl: https://github.com/tscnyc/fullstack-bootcamp/blob/main/CONTRIBUTING.md
+  contributingUrl: https://github.com/carequant/fullstack-bootcamp/blob/main/CONTRIBUTING.md
   # The URL to your License
-  licenseUrl: https://github.com/tscnyc/fullstack-bootcamp/blob/main/LICENSE
+  licenseUrl: https://github.com/carequant/fullstack-bootcamp/blob/main/LICENSE
 
 # Repository settings
 repository:
