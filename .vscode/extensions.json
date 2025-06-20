@@ -1,13 +1,18 @@
 {
   "recommendations": [
     "ms-python.python",
-    "esbenp.prettier-vscode",
     "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
     "ms-azuretools.vscode-docker",
-    "GitHub.vscode-pull-request-github",
-    "yzhang.markdown-all-in-one",
+    "github.vscode-pull-request-github",
     "mtxr.sqltools",
     "mtxr.sqltools-driver-pg",
-    "streetsidesoftware.code-spell-checker"
+    "yzhang.markdown-all-in-one",
+    "streetsidesoftware.code-spell-checker",
+    "ms-vscode.vscode-typescript-next",
+    "ms-vscode-remote.remote-containers",
+    "hashicorp.terraform",
+    "redhat.vscode-yaml",
+    "eamodio.gitlens"
   ]
 }

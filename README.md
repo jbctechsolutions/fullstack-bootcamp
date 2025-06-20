@@ -1,88 +1,61 @@
-# Full Stack Dev Bootcamp
+# Full Stack Development Bootcamp Curriculum
 
-Build, secure, and deploy a full-stack app using Flask, React, Docker, and GitHub Actions.
+This repository contains the complete curriculum for a hands-on, project-based full-stack development bootcamp. The curriculum is designed to be completed independently, guiding you through building, securing, and deploying a modern web application from scratch.
 
-## 🚀 Course Overview
+## 🚀 How to Use This Curriculum
 
-This bootcamp teaches you how to build a modern full-stack application from scratch, covering everything from local development to production deployment. You'll learn industry best practices and tools used by professional developers.
+This repository contains only the documentation and curriculum for the bootcamp. You will build the application code yourself by following the daily exercises.
 
-### Tech Stack
-- **Frontend**: React with TypeScript
-- **Backend**: Flask (Python)
-- **Database**: PostgreSQL
-- **Containerization**: Docker
-- **CI/CD**: GitHub Actions
-- **Infrastructure**: Terraform
-- **Version Control**: Git
+### Step 1: Get Your Own Copy
 
-## 📚 Course Structure
+It is essential that you **do not** work directly in this repository. Instead, you should create your own copy on GitHub:
 
-### Week 1: Foundations
-- Day 1: Git & GitHub Setup
-- Day 2: Flask API Development
-- Day 3: React Frontend Basics
-- Day 4-5: Docker & Containerization
+1.  **Fork this repository:** Click the "Fork" button at the top-right of this page to create a personal copy under your own GitHub account.
+2.  **Clone your fork:** Clone the forked repository to your local machine. Replace `your-username` with your actual GitHub username.
+    ```bash
+    git clone https://github.com/your-username/fullstack-bootcamp.git
+    cd fullstack-bootcamp
+    ```
 
-### Week 2: Full Stack Integration
-- Day 6-7: CRUD Operations & API Integration
-- Day 8: Authentication & Security
-- Day 9: Testing & Quality Assurance
-- Day 10: CI/CD Pipeline Setup
+### Step 2: Set Up Your Environment
 
-### Week 3: Deployment & DevOps
-- Day 11-12: Infrastructure as Code with Terraform
-- Day 13: Production Deployment
-- Day 14: Monitoring & Maintenance
-- Day 15: Project Completion & Best Practices
+Follow the instructions in [`docs/day_0_environment_setup.md`](./docs/day_0_environment_setup.md) to prepare your development environment. This is a critical step that ensures you have all the necessary tools installed and configured.
 
-## 🛠️ Prerequisites
+### Step 3: Start Building!
 
-- Git
-- Python 3.9+
-- Node.js 16+
-- Docker
-- VS Code with recommended extensions
-- GitHub account
+Begin with [`docs/day_1_git_setup.md`](./docs/day_1_git_setup.md) and proceed through the daily lessons. Each document contains a set of deliverables, success criteria, and hints to guide you. The goal is not to copy-paste code, but to learn by doing.
 
-## 🏗️ Project Structure
+## 📚 Curriculum Structure
 
-```
-.
-├── client/             # React frontend
-├── server/            # Flask backend
-├── docs/              # Daily lesson documentation
-├── infra/            # Terraform infrastructure code
-├── .github/          # GitHub Actions workflows
-└── .vscode/          # VS Code configuration
-```
+The curriculum is divided into daily modules, each focusing on a specific aspect of full-stack development.
 
-## 🚦 Getting Started
+-   **Day 0:** Environment Setup
+-   **Day 1:** Git & GitHub
+-   **Day 2:** Flask API Development
+-   **Day 3:** React Frontend Basics
+-   **Day 4:** Docker Basics
+-   **Day 5:** Docker Advanced
+-   **Day 6:** CRUD & Database Management
+-   **Day 7:** Authentication & Security
+-   **Day 8:** Unit Testing
+-   **Day 9:** CI/CD with GitHub Actions
+-   **Day 10:** Cloud Deployment
+-   **Day 11:** Monitoring & Production
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/fullstack-bootcamp.git
-   cd fullstack-bootcamp
-   ```
+## 🛠️ Tech Stack
 
-2. Install VS Code extensions:
-   - Open VS Code
-   - Press `Ctrl+Shift+X` (Windows/Linux) or `Cmd+Shift+X` (Mac)
-   - Install all recommended extensions
+This curriculum will guide you through building an application with the following technologies:
 
-3. Follow the daily lessons in the `docs/` directory, starting with `day_0_environment_setup.md`
-
-## 📝 Daily Lessons
-
-Each day's lesson is documented in the `docs/` directory with:
-- Learning objectives
-- Step-by-step instructions
-- Code examples
-- Practice exercises
-- Additional resources
+-   **Backend:** Flask (Python)
+-   **Frontend:** React (TypeScript)
+-   **Database:** PostgreSQL
+-   **Containerization:** Docker
+-   **CI/CD:** GitHub Actions
+-   **Version Control:** Git
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+This curriculum is open to improvements. If you find errors or have suggestions, please read our [Contributing Guidelines](CONTRIBUTING.md) and submit a pull request to the **original** repository.
 
 ## 📄 License
 
