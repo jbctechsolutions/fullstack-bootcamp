@@ -25,22 +25,38 @@ Follow the instructions in [`docs/day_0_environment_setup.md`](./docs/day_0_envi
 
 Begin with [`docs/day_1_git_setup.md`](./docs/day_1_git_setup.md) and proceed through the daily lessons. Each document contains a set of deliverables, success criteria, and hints to guide you. The goal is not to copy-paste code, but to learn by doing.
 
-## 📚 Curriculum Structure
+## Bootcamp Structure
 
-The curriculum is divided into daily modules, each focusing on a specific aspect of full-stack development.
+### Shared Foundation
+- [Day 0: Environment Setup](docs/day_0_environment_setup.md)
+- [Day 1: Git Setup](docs/day_1_git_setup.md)
 
--   **Day 0:** Environment Setup
--   **Day 1:** Git & GitHub
--   **Day 2:** Flask API Development
--   **Day 3:** React Frontend Basics
--   **Day 4:** Docker Basics
--   **Day 5:** Docker Advanced
--   **Day 6:** CRUD & Database Management
--   **Day 7:** Authentication & Security
--   **Day 8:** Unit Testing
--   **Day 9:** CI/CD with GitHub Actions
--   **Day 10:** Cloud Deployment
--   **Day 11:** Monitoring & Production
+### Choose Your Path
+
+#### Software Engineering
+- [Day 3: React Basics](docs/day_3_react_basics.md)
+- [Day 4: Docker Basics](docs/day_4_docker_basics.md)
+- [Day 5: Docker Advanced](docs/day_5_docker_advanced.md)
+- [Day 6: CRUD and Database](docs/day_6_crud_and_database.md)
+- [Day 7: Auth and Security](docs/day_7_auth_and_security.md)
+- [Day 8: Unit Testing](docs/day_8_unit_testing.md)
+- [Day 9: CI/CD GitHub Actions](docs/day_9_cicd_github_actions.md)
+- [Day 10: Cloud Deployment](docs/day_10_cloud_deployment.md)
+- [Day 11: Monitoring and Production](docs/day_11_monitoring_and_production.md)
+
+#### Data Analysis
+- [Day 3: Python for Data Analysis](docs/day_3_python_data_analysis.md)
+- [Day 4: Python for Financial Analysis](docs/day_4_python_financial_analysis.md)
+- [Day 5: Docker Basics](docs/day_4_docker_basics.md)
+- [Day 6: Docker Advanced](docs/day_5_docker_advanced.md)
+- [Day 7: SQL for Data Analysis](docs/day_7_sql_data_analysis.md)
+- [Day 8: Exploratory Data Analysis & Data Storytelling](docs/day_8_eda_storytelling.md)
+- [Day 9: Working with APIs and External Data](docs/day_9_apis_external_data.md)
+- [Day 10: Introduction to Machine Learning (Optional)](docs/day_10_intro_machine_learning.md)
+- [Day 11: Reproducible Analysis & Reporting](docs/day_11_reproducible_reporting.md)
+- [Day 12: Data Ethics & Privacy](docs/day_12_data_ethics_privacy.md)
+
+*After the shared foundation, choose the path that best fits your goals. Data Analysis learners can optionally select advanced modules or skip to topics most relevant to their work.*
 
 ## 🛠️ Tech Stack
 

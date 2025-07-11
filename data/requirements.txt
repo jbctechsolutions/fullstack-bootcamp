@@ -1,0 +1,10 @@
+jupyterlab
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+sqlalchemy
+requests
+yfinance
+pandas-datareader 
