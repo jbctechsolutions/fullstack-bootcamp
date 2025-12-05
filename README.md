@@ -25,6 +25,17 @@ Follow the instructions in [`docs/day_0_environment_setup.md`](./docs/day_0_envi
 
 Begin with [`docs/day_1_git_setup.md`](./docs/day_1_git_setup.md) and proceed through the daily lessons. Each document contains a set of deliverables, success criteria, and hints to guide you. The goal is not to copy-paste code, but to learn by doing.
 
+## Learning Philosophy
+
+This curriculum follows a **discovery-based learning** approach:
+
+- **No Solution Code Provided:** You will research, experiment, and build everything yourself. This is intentional - the struggle of figuring things out is where the deepest learning happens.
+- **Guided, Not Prescriptive:** Each lesson provides learning objectives, key concepts with resource links, and exercises with success criteria. How you achieve the criteria is up to you.
+- **Starter Notebooks Available:** For the Data Analysis path, starter Jupyter notebooks are provided in the `notebooks/` directory to help structure your work.
+- **Real Datasets Included:** The `data/` directory contains sample datasets for hands-on practice.
+
+This approach mirrors real-world software development, where you'll often need to research solutions, read documentation, and piece together knowledge from multiple sources.
+
 ## Bootcamp Structure
 
 ### Shared Foundation
@@ -34,6 +45,7 @@ Begin with [`docs/day_1_git_setup.md`](./docs/day_1_git_setup.md) and proceed th
 ### Choose Your Path
 
 #### Software Engineering
+- [Day 2: Flask API Development](docs/day_2_flask_api.md)
 - [Day 3: React Basics](docs/day_3_react_basics.md)
 - [Day 4: Docker Basics](docs/day_4_docker_basics.md)
 - [Day 5: Docker Advanced](docs/day_5_docker_advanced.md)
@@ -47,8 +59,8 @@ Begin with [`docs/day_1_git_setup.md`](./docs/day_1_git_setup.md) and proceed th
 #### Data Analysis
 - [Day 3: Python for Data Analysis](docs/day_3_python_data_analysis.md)
 - [Day 4: Python for Financial Analysis](docs/day_4_python_financial_analysis.md)
-- [Day 5: Docker Basics](docs/day_4_docker_basics.md)
-- [Day 6: Docker Advanced](docs/day_5_docker_advanced.md)
+- [Day 5: Docker Basics](docs/day_4_docker_basics.md) *(shared with SE path)*
+- [Day 6: Docker Advanced](docs/day_5_docker_advanced.md) *(shared with SE path)*
 - [Day 7: SQL for Data Analysis](docs/day_7_sql_data_analysis.md)
 - [Day 8: Exploratory Data Analysis & Data Storytelling](docs/day_8_eda_storytelling.md)
 - [Day 9: Working with APIs and External Data](docs/day_9_apis_external_data.md)
