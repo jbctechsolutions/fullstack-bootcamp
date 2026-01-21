@@ -1,5 +1,11 @@
 # Day 0: Environment Setup Guide
 
+> **🪟 Windows Users:** This guide is written for macOS and Linux. Windows users should follow one of our Windows-specific setup guides first:
+> - **[Devcontainer Setup](devcontainer_setup.md) (Recommended)** - Quick setup with VS Code/Cursor (5-10 minutes)
+> - **[Windows Setup Guide](windows_setup_guide.md) (Advanced)** - WSL2 hybrid approach (30-45 minutes)
+>
+> After completing your Windows setup, you can use this guide as a reference, but most steps will already be done for you.
+
 ## 🎯 Learning Objectives
 
 By the end of this setup, you will:

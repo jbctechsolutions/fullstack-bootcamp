@@ -1,0 +1,107 @@
+version: '3.8'
+
+# Fullstack Bootcamp - Docker Compose Configuration
+# This file is for hybrid WSL2 users who run services via Docker
+# Devcontainer users have separate compose files in .devcontainer/
+
+services:
+  # PostgreSQL Database (Both Paths)
+  postgres:
+    image: postgres:15-alpine
+    container_name: bootcamp_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-dev_password}
+      POSTGRES_DB: ${POSTGRES_DB:-bootcamp_db}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      # Optional: Init scripts directory
+      # - ./scripts/init-db:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - bootcamp
+
+  # Jupyter Lab (Data Analysis Path - Optional)
+  # Uncomment this service if you prefer running Jupyter in Docker
+  # jupyter:
+  #   image: jupyter/scipy-notebook:latest
+  #   container_name: bootcamp_jupyter
+  #   restart: unless-stopped
+  #   ports:
+  #     - "${JUPYTER_PORT:-8888}:8888"
+  #   volumes:
+  #     - ./notebooks:/home/jovyan/work
+  #     - ./data:/home/jovyan/data:ro
+  #   environment:
+  #     JUPYTER_ENABLE_LAB: "yes"
+  #     JUPYTER_TOKEN: ""  # No token for local dev (set for production)
+  #   command: start-notebook.sh --NotebookApp.token=''
+  #   networks:
+  #     - bootcamp
+
+  # pgAdmin (Optional - Database Management UI)
+  # Uncomment this service if you want a web UI for PostgreSQL
+  # pgadmin:
+  #   image: dpage/pgadmin4:latest
+  #   container_name: bootcamp_pgadmin
+  #   restart: unless-stopped
+  #   environment:
+  #     PGADMIN_DEFAULT_EMAIL: admin@bootcamp.local
+  #     PGADMIN_DEFAULT_PASSWORD: admin
+  #     PGADMIN_CONFIG_SERVER_MODE: 'False'
+  #   ports:
+  #     - "5050:80"
+  #   volumes:
+  #     - pgadmin-data:/var/lib/pgadmin
+  #   networks:
+  #     - bootcamp
+  #   depends_on:
+  #     - postgres
+
+volumes:
+  # PostgreSQL data persistence
+  pgdata:
+    driver: local
+
+  # pgAdmin data (if enabled)
+  # pgadmin-data:
+  #   driver: local
+
+networks:
+  bootcamp:
+    driver: bridge
+
+# Usage Instructions:
+# ------------------
+#
+# Start PostgreSQL only:
+#   docker compose up -d postgres
+#
+# Start all services (if uncommented):
+#   docker compose up -d
+#
+# View logs:
+#   docker compose logs -f postgres
+#
+# Stop services:
+#   docker compose down
+#
+# Stop and remove volumes (CAUTION: destroys data):
+#   docker compose down -v
+#
+# Check service status:
+#   docker compose ps
+#
+# Connect to PostgreSQL from host:
+#   psql -h localhost -U postgres -d bootcamp_db
+#   Password: dev_password
+#
+# Connection string:
+#   postgresql://postgres:dev_password@localhost:5432/bootcamp_db
