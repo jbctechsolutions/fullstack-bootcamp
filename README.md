@@ -21,6 +21,39 @@ It is essential that you **do not** work directly in this repository. Instead, y
 
 Follow the instructions in [`docs/day_0_environment_setup.md`](./docs/day_0_environment_setup.md) to prepare your development environment. This is a critical step that ensures you have all the necessary tools installed and configured.
 
+#### Windows Users: Choose Your Setup Path
+
+We provide **two setup options** specifically for Windows users:
+
+##### Option 1: Devcontainer (⚡ Recommended - Quick Start)
+- **Setup time:** 5-10 minutes
+- **Best for:** VS Code or Cursor users wanting the fastest setup
+- **What you get:** Pre-configured containers with all tools installed
+- **Choose your path:**
+  - 💻 **Software Engineering:** Flask + React + Node.js + PostgreSQL + Docker
+  - 📊 **Data Analysis:** Python + Jupyter + Data Science libraries + PostgreSQL
+
+**[📖 Devcontainer Setup Guide](docs/devcontainer_setup.md)**
+
+##### Option 2: Hybrid (WSL2 + Docker) 🔧
+- **Setup time:** 30-45 minutes
+- **Best for:** Users wanting native Linux development experience on Windows
+- **What you get:** Full control over tool installation, works with any editor
+- **Learn:** WSL2, pyenv, nvm, Docker Desktop integration
+
+**[📖 Windows Setup Guide](docs/windows_setup_guide.md)**
+
+##### Not Sure Which to Choose?
+
+| Factor | Devcontainer | Hybrid WSL2 |
+|--------|-------------|-------------|
+| **Speed** | ⚡ Fastest (5-10 min) | 🔧 Moderate (30-45 min) |
+| **Editor** | VS Code/Cursor | Any editor |
+| **Control** | Pre-configured | Full control |
+| **Learning** | Focus on coding | Learn native setup |
+
+**Recommendation:** Start with devcontainers. You can always switch to hybrid later if needed.
+
 ### Step 3: Start Building!
 
 Begin with [`docs/day_1_git_setup.md`](./docs/day_1_git_setup.md) and proceed through the daily lessons. Each document contains a set of deliverables, success criteria, and hints to guide you. The goal is not to copy-paste code, but to learn by doing.
