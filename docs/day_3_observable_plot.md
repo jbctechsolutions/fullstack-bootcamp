@@ -81,8 +81,8 @@ If you come from Power BI, the mental shift is this: you are no longer picking a
 - Each panel shares a common scale, so panels are visually comparable
 - Panels are labeled
 #### Hints
-- Look up `fx` and `fy` in Plot's facet documentation
-- If each panel has its own y-axis range, the comparison is broken — find the option that fixes it
+- Look up `fx` and `fy` in Plot's facet documentation — those are the facet channels
+- Plot shares scales across facets by default, which is what makes the panels comparable. Confirm it rather than assuming: check that a tall bar in one panel is drawn at the same height it would be in another, and that the y-axis range is identical across panels.
 #### Resources
 - [Plot: Facets](https://observablehq.com/plot/features/facets)
 

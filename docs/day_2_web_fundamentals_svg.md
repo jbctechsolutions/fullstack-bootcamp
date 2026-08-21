@@ -1,6 +1,6 @@
 # Day 2: Web Fundamentals & SVG
 
-> **Visualization path.** This is your first day after the shared foundation (Day 0, Day 1). If you came here from a BI tool like Power BI or Tableau, this day covers the ground those tools hid from you. Every charting library on the web draws into SVG — so before you can control a chart, you need to be able to read the thing it draws.
+> **Visualization path.** This is your first day after the shared foundation (Day 0, Day 1). If you came here from a BI tool like Power BI or Tableau, this day covers the ground those tools hid from you. The tools this track uses — D3 and Observable Plot — draw charts as SVG, so before you can control a chart you need to be able to read the thing it draws. (Not every library works this way: some render to `<canvas>` or WebGL instead, which trades inspectability for speed on very large datasets. This day is about the SVG kind, which is what you'll be building.)
 
 ## 🎯 Learning Objectives
 By the end of this day, you will:
@@ -61,13 +61,14 @@ By the end of this day, you will:
 
 ### Exercise 3: Read someone else's chart
 #### Deliverables
-1. Open any published web chart in DevTools and write a short note (5–10 lines) identifying: what element wraps the plot area, what element draws a single data mark, and how the axis labels are rendered.
+1. Find a published chart **rendered as SVG**, open it in DevTools, and write a short note (5–10 lines) identifying: what element wraps the plot area, what element draws a single data mark, and how the axis labels are rendered.
 #### Success Criteria
-- You can point at one DOM node and say "this is one data point"
+- The chart you picked exposes its marks as individual SVG nodes — you can point at one node and say "this is one data point"
 - You can name at least one thing the library did that you did by hand in Exercise 2
 #### Hints
 - [The Pudding](https://pudding.cool/) and [Our World in Data](https://ourworldindata.org/) both publish inspectable SVG charts
 - Right-click a bar or dot → Inspect
+- **If Inspect selects a single `<canvas>` element and there's nothing inside it, that chart is drawn to a bitmap and has no per-mark DOM to read.** It isn't broken and you didn't do anything wrong — pick a different chart. Telling the two apart in five seconds is a useful skill on its own.
 #### Resources
 - [Chrome DevTools: Inspect the DOM](https://developer.chrome.com/docs/devtools/dom)
 
