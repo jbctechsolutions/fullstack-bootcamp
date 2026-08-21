@@ -89,6 +89,14 @@ This approach mirrors real-world software development, where you'll often need t
 - [Day 10: Cloud Deployment](docs/day_10_cloud_deployment.md)
 - [Day 11: Monitoring and Production](docs/day_11_monitoring_and_production.md)
 
+#### Data Visualization (Web)
+- [Day 2: Web Fundamentals & SVG](docs/day_2_web_fundamentals_svg.md)
+- [Day 3: Charts with Observable Plot](docs/day_3_observable_plot.md)
+- Day 4: From Plot to D3 *(in progress)*
+- Day 5: Custom Visualizations with D3 *(in progress)*
+
+*For building charts that live on a website. Starts from zero JavaScript — useful if you're coming from Power BI, Tableau, or Excel and need your work to ship to the web rather than to a report.*
+
 #### Data Analysis
 - [Day 3: Python for Data Analysis](docs/day_3_python_data_analysis.md)
 - [Day 4: Python for Financial Analysis](docs/day_4_python_financial_analysis.md)
