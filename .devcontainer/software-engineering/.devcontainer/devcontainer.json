@@ -1,6 +1,6 @@
 {
   "name": "Software Engineering Path",
-  "dockerComposeFile": "docker-compose.yml",
+  "dockerComposeFile": "../docker-compose.yml",
   "service": "devcontainer",
   "workspaceFolder": "/workspaces",
 
